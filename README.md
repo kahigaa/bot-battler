@@ -1,12 +1,45 @@
-# React + Vite
+# Bot Battler
+A simple React app where users can manage their bot army. Bots can be enlisted, released, or discharged permanently.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **View all available bots**: See a list of bots with stats like health, damage, and armor.
+- **Enlist a bot**: Add a bot to your army by clicking on it.
+- **Release a bot**: Remove a bot from your army.
+- **Discharge a bot**: Permanently remove a bot from both your army and the backend.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- **Node.js** and **npm** installed on your machine.
+- **json-server** to mock the backend.
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies for the frontend.
+3. Set up **json-server** to provide the fake backend for the bots.
+4. Run the backend and frontend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Running the App
+1. Start the **json-server** backend on port `8001`.
+2. Start the React app on port `5173`.
+
+Once both servers are running, you can access the app at `http://localhost:5173`.
+
+## Usage
+- **Enlist a bot**: Click on any bot from the available list to add it to your army.
+- **Release a bot**: Click on any bot in your army to remove it.
+- **Discharge a bot**: Click the red "x" button to permanently remove a bot from both the army and backend.
+
+## Built With
+- **React** - Frontend framework
+- **json-server** - Fake REST API for the backend
+- **Vite** - Build tool for faster development
+
+## License
+This project is licensed under the MIT License.
+``
+
+
+
+
+
